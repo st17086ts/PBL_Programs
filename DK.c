@@ -74,9 +74,11 @@ int main(void){
   printf("%d", node);
   while(1){
     node = VIA[node];
-    printf(" -> %d", node);
+    printf(" <- %d", node);
     if (node == s) break;
   }
 
   return 0;
 }
+
+//comment add
